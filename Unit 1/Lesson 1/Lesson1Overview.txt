@@ -1,0 +1,30 @@
+# Lesson 1
+## Programming
+Programming in essence is just writing instructions. When you write and execute a program, you are telling a 
+computer how to complete a set of instructions you give it.
+## Java
+AP Computer Science A and AB ar both revolving around the programming language Java. Java is a very widely used, 
+high level programming language, and origianlly came out in 1995. At the time of release, Java was very unique 
+due to its quality of life features such as automatica garbage collection and robust security features.
+## Sequencing
+In java, tasks are completed sequentially, starting from the top to the bottom. Proper sequencing ensures 
+reliability and wrong seqeuncing is often a source of errors.
+## Compiling
+Compiling is what the computer does to convert your code into bianary (1s and 0s) that the computer can interpret. Compilers will
+check for syntax errors before executing.
+## Strings
+Strings are the central way of storing text in java. To create a string, simply enclose text with a quotation mark on each end.
+"example"
+Without quotes, java will not be able to determine that the text is a string. Strings are a class variable, meaning that they 
+store a refrence to a memory location instead of just holding a variable, this will be important, but isnt required knowledge now.
+## Commands and Output
+This lesson focuses on two commands: System.out.print() and System.out.println().
+These are two commands that will both perform the same function, print text to the output terminal.
+If we break down these two commands, it is easier to understand how they function.
+System is a core class in java, providing many utilities such as the output function we are using.
+System.out specifies thag we are using the output field of the System class. 
+print() and println() are both methods of System.out, both take a String parameter in the parentheses. That String is what they 
+will print to the terminal. 
+print() will print the String in the parentheses
+println(), also called print line, will print the String in the parentheses, then create a new line (essentially pressing the enter key)
+So executing System.out.println() will print whatever string is contained within the parentheses, then create a new line.
