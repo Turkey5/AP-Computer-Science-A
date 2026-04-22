@@ -6,7 +6,7 @@ import java.util.Scanner;
 class U1_L2_Activity_One {
   public static void main(String[] args) {
     String userFavFood; 
-    // this line dedicates a memory address to userFavFood, but doesnt set its value to anything
+    // this line dedicates a memory address and initializes userFavFood, but doesnt set its value to anything
     
     Scanner scan = new Scanner(System.in); 
     // this line creates a new Scanner object called scan
