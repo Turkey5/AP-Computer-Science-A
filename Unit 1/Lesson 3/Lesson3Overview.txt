@@ -1,0 +1,21 @@
+# Data types
+## What are data types
+Data types are different formats of storing data. Different data types can hold different things and are specialized for use in certain circumstances.
+## Data types usage
+Java requires that each variable be given a differnt type, this is different from some lighter weight programming languages such as python or lua. The different data types also determine what can be stored in thag variable. For example, java sont let you store a string in a numerical variable. This also helps with memory managment, as some variables will take up very little space and it is unnessesary to dedicate a large amount of memory to them.
+# Primative Types
+## AP required types
+- int, basic 4 byte storage for whole numbers. ints are unable to store decimal values, and can hold values from -2,147,483,648 to 2,147,483,647.
+- double, takes double the storage as an int (8 bytes), but can store decimal values.
+- boolean, the simplest variable, takes 1 bit of memory and simple holds true or false.
+## other types
+- byte, a numerical type for small number ranging from -128 to 127. this comeswith the advantage of only consuming 4 bits of memory, which is 1/8th that of an int.
+- short, a numerical type for uses where an int is unnessessary. stores values from -32,768 to 32,767 and only takes 16 bits of memory.
+- long, the largest numerical data type, with a range of -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. Longs take 64 bits (8 bytes) of memory. 
+- float, a lower memory alternative to the double. floats can store smaller decimal by using 32-bits, and limit digit precision.
+- char, uses 16 bits to store any unicode character. 
+# Class types
+## class types differences
+Also known as refrence data types. instead of holding the value of the variable directly, class variables store a refrence to the memory location of their contents. This allows for much greater capacity and more complex types.
+## Strings
+Strings are a class type, they point to the memory address where the string they contain is located. Strings will take up a variable amount of memory depending on how long they are.
